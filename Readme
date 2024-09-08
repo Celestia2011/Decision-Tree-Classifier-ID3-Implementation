@@ -1,4 +1,4 @@
-# Decision Tree Classifier (ID3) Implementation
+# **Decision Tree Classifier (ID3) Implementation**
 
 ## Project Overview
 This project implements a **Decision Tree Classifier** using the **ID3 algorithm** on a weather dataset to predict whether or not to play based on weather conditions. It covers the following steps:
