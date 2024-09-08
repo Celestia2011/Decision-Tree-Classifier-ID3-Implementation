@@ -1,22 +1,21 @@
-# **Decision Tree Classifier (ID3) Implementation**
+# Decision Tree Classifier (ID3 Algorithm)
 
 ## Project Overview
-This project implements a **Decision Tree Classifier** using the **ID3 algorithm** on a weather dataset to predict whether or not to play based on weather conditions. It covers the following steps:
-1. Dataset preprocessing.
-2. Calculation of entropy and information gain for each feature.
-3. Decision tree construction.
-4. Performance evaluation using accuracy and confusion matrix.
-5. Visualization of the final decision tree.
-### Features
+This project implements a **Decision Tree Classifier** using the **ID3 Algorithm** to predict whether or not to play based on weather conditions. It includes:
+- Dataset preprocessing
+- Calculation of entropy and information gain
+- Construction of the decision tree
+- Model evaluation (accuracy and confusion matrix)
+- Visualization of the final decision tree
+## Features
 - **Outlook**: Categorical (Sunny, Overcast, Rainy)
 - **Temperature**: Categorical (Hot, Mild, Cool)
 - **Humidity**: Categorical (High, Normal)
 - **Windy**: Boolean (True, False)
-- **Play**: Target label (Yes/No)
+- **Play**: Target variable (Yes, No)
 
 ## Project Structure
-The repository contains the following files:
-- `data.csv`: The dataset file.
-- `decision_tree.py`: Python script implementing the ID3 algorithm, entropy and information gain calculation, and decision tree creation.
-- `README.md`: This file explaining the project.
-- `requirements.txt`: List of dependencies and packages required to run the project.
+- `data.csv`: Dataset file
+- `decision_tree.py`: Python script that implements the ID3 algorithm
+- `README.md`: Explanation of the project
+- `requirements.txt`: List of dependencies for the project
